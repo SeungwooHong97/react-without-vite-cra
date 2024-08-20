@@ -1,0 +1,26 @@
+{
+  "name": "react-without-vite-cra",
+  "version": "1.0.0",
+  "description": "토스 프론트엔드 엔지니어 채용 공고에서 \r 빌드 툴을 보면 4가지나 빌드 하는 과정에 빌드 툴을 사용하고 있는데, 각 회사의 프로젝트마다, 회사의 특성 마다 이러한 기술사용 스택은 얼마든지 변화하고, 변경되거나, 또한 내가 몰랐던 빌드, 기술을 사용할 가능성이 크기 때문에 이를 위해서는 vite나 cra같이 간편하게 설정을 해주고, 템플릿을 지정해주고 커스터마이징이 제약된 환경보다는 커스터마이징이 자유롭고  , 엄청 큰 프로젝트나, 여러가지 환경이 필요한 상황일 때는 vite, cra없이 개발 환경을 구성하는 것이 필요하다고 생각이 되어 포스팅을 작성하게 되었다. \r ## ❤️ 개발 기간 \r - 2024.08.20(화) ~ 2024.08.20(화)\r - vite, cra 없이 Development evironment 환경 구축",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "cross-env NODE_ENV=procution webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-react": "^7.24.7",
+    "babel-loader": "^9.1.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "dotenv-webpack": "^8.1.0",
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
